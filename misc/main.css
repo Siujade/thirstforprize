@@ -1,0 +1,66 @@
+table{
+    margin: 0 auto;
+    height:300px;
+    border:1px solid black;
+    font-family: "Webdings";
+    font-size: 100px;
+    cursor:help;
+    table-layout: fixed;
+}
+td::selection {
+    background: black;
+}
+td{
+    text-align: center;
+    height:100px;
+    width:100px;
+    border:1px solid black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+td span{
+    display:none;
+}
+
+#prize, #games{
+    color:lime;
+    font-size:40px;
+    font-family: cursive;
+}
+
+h1{
+    margin: 5px 0 0 15px;
+    text-align: center;
+}
+
+body{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7d7e7d+0,0e0e0e+99 */
+    background: #7d7e7d; /* Old browsers */
+    height:600px;
+    background: -moz-radial-gradient(center, ellipse cover,  #7d7e7d 0%, #0e0e0e 99%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7d7e7d), color-stop(99%,#0e0e0e)); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 99%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 99%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover,  #7d7e7d 0%,#0e0e0e 99%); /* IE10+ */
+    background: radial-gradient(ellipse at center,  #7d7e7d 0%,#0e0e0e 99%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+body > div {
+    float:right;
+    border:1px solid black;
+    border-radius: 5px;
+    width:370px;
+}
+
+#try-again{
+    float:none;
+    width:40%;
+    margin: 0 auto;
+    border:5px double royalblue;
+}
+
+#try-again h1{
+    color:rgba(247, 201, 143, 0.97);
+}
